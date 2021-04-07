@@ -6,9 +6,9 @@ class Stone{
             'density':1.0,
             isStatic:false
         }
-        this.x=x;
-        this.y=y;
-        this.r=r;
+        this.x = x;
+        this.y = y;
+        this.r = r;
         this.body = Bodies.circle(x, y, r, options);
         
         this.image = loadImage("sprites/stone.png");
